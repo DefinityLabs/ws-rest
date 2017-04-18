@@ -1,0 +1,22 @@
+{
+  "name": "ws-rest-demo-server",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Demo REST Server",
+  "author": "Definity Labs",
+  "contributors": [
+    {
+      "name": "David Sobreira Gouvea",
+      "email": "david.sobreira.gouvea@gmail.com"
+    }
+  ],
+  "license": "Apache-2.0",
+  "main": "server.js",
+  "dependencies": {
+    "body-parser": "^1.17.1",
+    "express": "^4.15.2"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  }
+}

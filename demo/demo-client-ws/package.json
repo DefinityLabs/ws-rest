@@ -1,0 +1,36 @@
+{
+  "name": "ws-rest-demo-client-ws",
+  "version": "0.1.0",
+  "description": "Demo Client using WebSockets",
+  "private": true,
+  "author": "Definity Labs",
+  "contributors": [
+    {
+      "name": "David Sobreira Gouvea",
+      "email": "david.sobreira.gouvea@gmail.com"
+    }
+  ],
+  "license": "Apache-2.0",
+  "dependencies": {
+    "bufferutil": "^3.0.0",
+    "json": "^9.0.6",
+    "promise": "^7.1.1",
+    "react": "^15.5.4",
+    "react-dom": "^15.5.4",
+    "request": "^2.81.0",
+    "request-promise": "^4.2.0",
+    "shortid": "^2.2.8",
+    "url": "^0.11.0",
+    "utf-8-validate": "^3.0.1",
+    "ws": "^2.2.3",
+    "ws-rest": "^0.1.0"
+  },
+  "devDependencies": {
+    "react-scripts": "0.9.5"
+  },
+  "scripts": {
+    "start": "PORT=3002 react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test --env=jsdom"
+  }
+}

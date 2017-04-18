@@ -1,0 +1,44 @@
+{
+  "name": "ws-rest",
+  "version": "0.1.0",
+  "description": "Call REST services through WebSockets",
+  "main": "server.js",
+  "scripts": {
+    "test": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/DefinityLabs/ws-rest"
+  },
+  "keywords": [
+    "rest",
+    "websocket"
+  ],
+  "author": "Definity Labs",
+  "contributors": [
+    {
+      "name": "David Sobreira Gouvea",
+      "email": "david.sobreira.gouvea@gmail.com"
+    }
+  ],
+  "license": "Apache-2.0",
+  "bugs": {
+    "url": "https://github.com/DefinityLabs/ws-rest/issues"
+  },
+  "homepage": "https://github.com/DefinityLabs/ws-rest#readme",
+  "devDependencies": {
+    "jest": "^19.0.2"
+  },
+  "dependencies": {
+    "body-parser": "^1.17.1",
+    "bufferutil": "^3.0.0",
+    "express": "^4.15.2",
+    "express-ws": "^3.0.0",
+    "json": "^9.0.6",
+    "promise": "^7.1.1",
+    "request-promise": "^4.2.0",
+    "shortid": "^2.2.8",
+    "utf-8-validate": "^3.0.1",
+    "ws": "^2.2.3"
+  }
+}
