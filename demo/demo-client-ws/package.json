@@ -23,7 +23,7 @@
     "url": "^0.11.0",
     "utf-8-validate": "^3.0.1",
     "ws": "^2.2.3",
-    "ws-rest": "^0.1.0"
+    "ws-rest": "^0.1.1"
   },
   "devDependencies": {
     "react-scripts": "0.9.5"
