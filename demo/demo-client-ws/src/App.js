@@ -5,7 +5,7 @@ import Box from './Box';
 class App extends Component {
 
   componentWillMount() {
-    wsRestClient.connect('ws://localhost:9999/ws');
+    wsRestClient.connect('ws://localhost:9999/ws', {autoClose: true});
   }
 
   render() {
